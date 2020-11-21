@@ -15,7 +15,7 @@ conflicts=(grub2-editor)
 depends=('grub' 'hwinfo' 'imagemagick' 'qt5-base' 'kio' 'ki18n' 'kauth' 'kconfigwidgets' 'solid')
 makedepends=('cmake' 'ninja' 'extra-cmake-modules' 'git' 'kdoctools')
 optdepends=('os-prober: Create entries for other operating systems')
-source=("git+https://github.com/maz-1/${_product}.git")
+source=("git+https://invent.kde.org/system/kcm-grub2.git")
 groups=('plasma')
 sha256sums=('SKIP')
 
